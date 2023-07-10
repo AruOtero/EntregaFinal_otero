@@ -36,6 +36,13 @@ else if(menuPrin==2){
             menuPrin=("Ingrese una opción válida \n 1- Cuotas \n 2- Vencimiento 0-Salir ");
         }
 
+if((diasVencimiento == 1 || diasVencimiento == 2)&&(cantidadCuotas != 0 && cantidadCuotas < 5)){
+    cotizar=true;
+}
+else{
+    menuPrin=prompt("Faltan ingresar datos");
+}
+
 /* cantidadCuotas = pedirCuotas();
 console.log(cantidadCuotas);
 
