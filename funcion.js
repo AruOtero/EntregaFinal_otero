@@ -1,4 +1,4 @@
-function pedirCuotas (){
+/* function pedirCuotas (){
     cantidadCuotas = Number(prompt("Seleccione la cantidad de cuotas \n 1- 6 cuotas \n 2- 12 cuotas \n 3- 24 cuotas"));
     while (cantidadCuotas != 1 && cantidadCuotas != 2 && cantidadCuotas != 3){
         cantidadCuotas= Number(prompt("Seleccione una opción correcta: \n 1- 6 cuotas \n 2- 12 cuotas \n 3- 24 cuotas "));
@@ -17,4 +17,4 @@ function pedirVencimiento(){
 function error(){
     alert("Seleccione una opción válida");
     pedirCuotas();
-}
+} */
