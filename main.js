@@ -53,4 +53,4 @@ do{
     }
     alert("el valor de la cuota es " + valorCuotas);
     simular= prompt("1- Seguir simulando \n 2-Salir");
-} while(simular==2);
+} while(simular != 2);
