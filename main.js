@@ -55,6 +55,4 @@ do{
     else{
         simular==2;
     }
-    
-
 }while (simular==1);
