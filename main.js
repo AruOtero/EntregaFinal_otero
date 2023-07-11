@@ -52,27 +52,3 @@ do{
         simular=prompt("Seleccione la opción requerida \n 1 - Simular otro importe \n 2- Salir");
 
 }while (simular==1);
-/* 
-importeSolicitado= Number(prompt("Ingrese el importe a solicitar"));
-funcion pedir cuota
-funcion pedir cantdias
-
-if pedir cuota es ==0 
-    cont = 0;
-else if cuota < 4
-    cont = cont+1
-    else if dias == 0
-        cont=0
-        else dias < 3
-            cont=1
-
-if (cont > 0)
-    simular =1; 
-else
-    alert Se debe volver a completar los datos:
-    pedir cuota;
-    pedir dias;
-
-
-
- */
