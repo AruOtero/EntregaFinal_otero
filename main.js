@@ -5,8 +5,20 @@ let valorCuotas;
 let impuestos = 0.50;
 let simular=1;
 let confirma;
+let simulado;
+let i=0;
+let array=[];
+let nombre;
+let apellido;
+let email;
+
+
+
 
 do{
+    nombre=ingreseNombre();
+    apellido=ingreseApellido();
+    email=ingreseEmail();
     importeSolicitado=(prompt("Ingrese el importe a solicitar"));
     if(importeSolicitado > 0)
         {   cantidadCuotas=pedirCuotas();
@@ -52,7 +64,20 @@ do{
                 alert("El valor de la cuota es: "+valorCuotas);
                 simular=prompt("Seleccione la opción requerida \n 1 - Simular otro importe \n 2- Salir");
         }
-    else{
+        
+         else{
         simular==2;
     }
+    
+    array.push(simulador = new simulado(nombre, apellido, email, importeSolicitado, cantidadCuotas, diasVencimiento));
+    console.log(simulador);
+    i++;
+    
 }while (simular==1);
+
+
+for(e=0;e<array.length;e++){
+    console.log(array[e]);
+} 
+
+
