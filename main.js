@@ -5,14 +5,11 @@ let valorCuotas;
 let impuestos = 0.50;
 let simular=1;
 let confirma;
-let simulado;
 let i=0;
 let array=[];
 let nombre;
 let apellido;
 let email;
-
-
 
 
 do{
