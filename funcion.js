@@ -1,3 +1,17 @@
+let diasVencimiento;
+let cantidadCuotas;
+let importeSolicitado;
+let valorCuotas;
+let impuestos = 0.50;
+let simular=1;
+let confirma;
+let i=0;
+let array=[];
+let nombre;
+let apellido;
+let email;
+
+ 
  function pedirCuotas (){
     cantidadCuotas = Number(prompt("Seleccione la cantidad de cuotas \n 1- 6 cuotas \n 2- 12 cuotas \n 3- 24 cuotas "));
     while ((cantidadCuotas>3)){

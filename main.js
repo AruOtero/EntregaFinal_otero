@@ -1,15 +1,4 @@
-let diasVencimiento;
-let cantidadCuotas;
-let importeSolicitado;
-let valorCuotas;
-let impuestos = 0.50;
-let simular=1;
-let confirma;
-let i=0;
-let array=[];
-let nombre;
-let apellido;
-let email;
+
 
 
 do{
