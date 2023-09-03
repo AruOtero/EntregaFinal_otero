@@ -9,53 +9,38 @@
 <header><h1>SIMULADOR DE PRESTAMOS</h1></header>
 <body>
 <main>
-    <div class="formulario">
-    <form action=" " class="form">
-        <div>
+    <div class="formulario" id="formulario">
+    <form id= "formu" action=" " class="form">
             <label for="nombre">Nombre:</label>
-            <input type="text" name="nombre" placeholder="Nombre">        
-        </div>
-
-        <div>
+            <input type="text" name="nombre" placeholder="Nombre">       
             <label for="apellido">Apellido:</label>
             <input type="text" name="apellido"placeholder="Apellido">
-        </div>
-
-        <div>
             <label for="email">Email: </label>
             <input type="email" name="email" placeholder="Email">
-        </div>
-        <div>
             <label for="importe">Importe a simular: </label>
-            <input type="number"name="importe" placeholder="importe">
-        </div>
-
-        <div>
+            <input  id="importe" type="number"name="importe" placeholder="importe">
             <label for="cuotas">Seleccione la cantidad de cuotas</label>
-                <select name="cuotas">
+                <select name="cuotas"id="cuotas">
                     <option value="6">6 cuotas</option>
                     <option value="12">12 cuotas</option>
                     <option value="24">24 cuotas</option>
                     <option value="36">36 cuotas</option>
                 </select>
-        </div>
-
-        <div>
             <label for="vencimiento">Seleccione la cantidad de cuotas</label>
-                <select name="vencimiento">
+                <select name="vencimiento" id="vencimiento">
                     <option value="30">Vencimiento en 30 días</option>
                     <option value="60">Vencimiento en 60 días</option>
                 </select>
-        </div> 
-
-        <div>
             <input type="submit" value="Ver cuota">
             <input type="reset" value="Borrar formulario">
-        </div>                
+
     </form>
 </div>
 </main>        
 <script src="./funcion.js"></script>
 <script src="./main.js"></script> 
+<script src="js/libreria.js"></script>
+<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </body>
 </html>
