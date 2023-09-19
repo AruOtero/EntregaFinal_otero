@@ -1,11 +1,3 @@
-// Crear un objeto de usuario
-let usuario = {
-  nombre: "",
-  apellido: "",
-};
-
-// Crear un array para almacenar usuarios
-let usuarios = [];
 
 document.getElementById("formu").addEventListener("submit", validarFormulario);
 
