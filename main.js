@@ -36,14 +36,14 @@ function validarFormulario(e) {
         text: "Usuarios: " + JSON.stringify(usuarios),
         confirmButtonText: "Salir"
       });
-    })
+    });
     .catch(error => {
       console.error("Error al obtener datos del servidor:", error);
     });
-}
+};
 
     .catch(error => {
       console.error("Error al obtener datos del servidor:", error);
       // Puedes manejar el error aquí, por ejemplo, mostrar un mensaje de error al usuario.
     });
-}
+};
