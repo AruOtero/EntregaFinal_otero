@@ -1,39 +1,111 @@
-body{
+body {
     background-image: url(./img/fondo.jpg);
-}
-.header{
-    align-items: center;
-    text-align: center; 
-}
-h1{
-    align-items: center;
+    background-size: cover;
+    background-position: center;
+}   
+
+header, h1 {
     text-align: center;
     color: white;
 }
-.formulario{
-    color: aliceblue;
+
+.formulario {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin: 20px; 
+}
+
+
+.form {
+    color: black;
+    background-color: rgb(126, 180, 224);
     display: flex;
     flex-direction: column;
-    width: auto;
-    margin: 30px;
-    padding-inline-start: 10px;
-    border-radius:20px ;
-    -webkit-border-radius:20px ;
-    -moz-border-radius:20px ;
-    -ms-border-radius:20px;
-    -o-border-radius:20px;
-    -o-border-radius:20px;
-    .form{
-        color: black;
-        background-color: rgb(126, 180, 224); 
-        display: flex;
-        flex-direction: column;
-        text-align: center; 
-        padding: 2%;
-        margin: 50px;
-        margin-left: 50px;
-        column-gap: 10px;
-        font-size: 30px;
-       
-        }
+    text-align: center;
+    padding: 2%;
+    margin: 50px;
+    margin-left: 50px;
+    column-gap: 10px;
+    font-size: 30px;
+}
+
+.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.formulario select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px; 
+}
+
+
+.formulario input:focus,
+.formulario select:focus {
+    border-color: #007BFF;
+    outline: none;
+}.formulario label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.formulario select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-right: 25px;
+}
+
+
+.formulario input:focus,
+.formulario select:focus {
+    border-color: #007BFF;
+    outline: none;
+}
+
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 18px; 
+}
+
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #0056b3;
 }
